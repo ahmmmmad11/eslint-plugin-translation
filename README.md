@@ -9,7 +9,6 @@ When building applications that support multiple languages, hardcoding static te
 
     Improving DX: Makes it easier to identify and manage translatable text, streamlining the localization process.
 
-    Preventing errors: Catches static text early in development, reducing the risk of untranslated content in production.
 
 ## Installation
 
@@ -121,6 +120,9 @@ Once configured, ESLint will flag any static text in your Vue templates. For exa
 ```
 error: Use Translation interpolation ({{ __('text') }}) instead of plain text. (translation/no-plain-text)
 ```
+
+> **IMPORTANT**  
+> This plugin is a custom plugin designed to work with my custom `__()` translation method. It will not work with your files out of the box. You will need to customize it to work with your specific translation method. however you can use it as template, with a little modification it can work with your prefared translation method.
 
 
 License
