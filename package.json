@@ -1,0 +1,21 @@
+{
+  "name": "eslint-plugin-translation",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Enforce using translation method",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^9.20.1"
+  },
+  "peerDependencies": {
+    "eslint-plugin-vue": "^9.32.0"
+  },
+  "dependencies": {
+    "vue-eslint-parser": "^9.4.3"
+  }
+}
