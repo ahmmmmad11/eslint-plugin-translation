@@ -129,4 +129,3 @@ License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-For more information, visit the GitHub repository. If you encounter any issues or have suggestions, please open an issue or submit a pull request. Happy coding! 🚀
